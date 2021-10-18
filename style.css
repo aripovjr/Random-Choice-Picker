@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #2b88f0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+h3{
+    color: #fff;
+    margin: 10px 0 20px;
+}
+
+.container{
+    width: 500px;
+}
+
+textarea{
+    border: none;
+    width: 100%;
+    height: 100px;
+    margin: 0 0 20px;
+    padding: 10px;
+    font-family: inherit;
+    font-size: 16px;
+    display: block;
+}
+
+.tag{
+    background-color: #f0932b;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin: 0 10px 5px 0;
+    font-size: 14px;
+    display: inline-block;
+    color: #fff;
+}
+
+.tag.choosen{
+    background-color: #273c72;
+}
